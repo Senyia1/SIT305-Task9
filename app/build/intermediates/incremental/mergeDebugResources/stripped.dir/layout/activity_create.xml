@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createActivity">
+
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="440dp"
+        android:text="Location:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discription" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="244dp"
+        android:text="Discription:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/discription"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="344dp"
+        android:text="Date:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="168dp"
+        android:text="Phone:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:text="Name:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Post Type:"
+        android:textAlignment="viewStart"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:layout_width="227dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="109dp"
+            android:layout_height="36dp"
+            android:text="Found"
+            android:textColor="#070303"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="109dp"
+            android:layout_height="36dp"
+            android:text="LOST"
+            android:textColor="#070303"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="285dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/button_border"
+        android:text="SAVE"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/getlocation"
+        android:layout_width="294dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/button_border"
+        android:text="GET CURRENT LOCATION"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
